@@ -51,7 +51,7 @@ This is a Solana trading bot that uses Jupiter Aggregator for swaps and OpenRout
     # API Keys
     OPENROUTER_API_KEY="sk-or-v1-..." # Your OpenRouter API Key
 
-    # Wallet (IMPORTANT: Secure this key. This is a placeholder format.)
+    # Wallet (IMPORTANT: Secure this key. This is a placeholder format)
     # For development, you might use a burner wallet.
     # NEVER commit your actual private key to the repository.
     # The .gitignore file is configured to ignore .env files.
@@ -68,18 +68,18 @@ This is a Solana trading bot that uses Jupiter Aggregator for swaps and OpenRout
 The bot monitors market prices for `TARGET_TOKEN_A` and `TARGET_TOKEN_B` using the Jupiter API to identify potential arbitrage opportunities. It primarily evaluates the following scenarios to maximize one of the target tokens or achieve a USD profit:
 
 1.  **Triangular Arbitrage via USDC:**
-    *   `TARGET_TOKEN_A` → `USDC` → `TARGET_TOKEN_B`
-    *   `TARGET_TOKEN_B` → `USDC` → `TARGET_TOKEN_A`
+    *   `TARGET_TOKEN_A` => `USDC` => `TARGET_TOKEN_B`
+    *   `TARGET_TOKEN_B` => `USDC` => `TARGET_TOKEN_A`
 2.  **Direct Swaps (especially if one target token is USDC or for direct comparison):**
-    *   `TARGET_TOKEN_A` → `TARGET_TOKEN_B`
-    *   `TARGET_TOKEN_B` → `TARGET_TOKEN_A`
+    *   `TARGET_TOKEN_A` => `TARGET_TOKEN_B`
+    *   `TARGET_TOKEN_B` => `TARGET_TOKEN_A`
 
 The goal is to find a sequence of swaps that results in a greater amount of the desired token, with the profit estimated in USD and compared against `MIN_USD_PROFIT_THRESHOLD`.
 
 When a potential arbitrage opportunity is identified:
 1.  It fetches precise quotes from Jupiter for the chosen trading path.
 2.  It constructs a prompt for the OpenRouter API, detailing the potential trade (tokens, expected profit, etc.).
-3.  An AI model via OpenRouter assesses the trade\'s viability (e.g., considering if the profit is significant enough or if there are hidden risks not captured by simple price differences).
+3.  An AI model via OpenRouter assesses the trade's viability (e.g., considering if the profit is significant enough or if there are hidden risks not captured by simple price differences).
 4.  If the AI confirms the trade with a "YES" response, the bot will attempt to execute the swap(s) using the Jupiter Swap API.
 
 **Note on Execution:** The current implementation focuses on identifying opportunities and getting AI confirmation. The actual transaction submission logic (`send_and_confirm_transaction` in `main.py`) is a critical placeholder. It needs to be fully implemented, including robust error handling, transaction signing with the `WGRS_PRIVATE_KEY`, and confirmation, before use with real funds.
@@ -107,3 +107,14 @@ The bot will start logging its activities, including price checks, potential opp
 -   [ ] **Backtesting Framework:** Develop a system to test strategies against historical data.
 -   [ ] **Improved Logging and Monitoring:** Integrate more comprehensive logging and potentially a dashboard.
 -   [ ] **Risk Management:** Implement stricter risk controls (e.g., max trade size, daily loss limits).
+
+## Contributing
+Contributions are welcome! Please feel free to submit pull requests or open issues.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
