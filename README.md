@@ -1,63 +1,109 @@
-IyBTb2xhbmEgQUkgQXJiaXRyYWdlIFRyYWRpbmcgQm90CgpUaGlzIHByb2pl
-Y3QgYWltcyB0byBkZXZlbG9wIGFuIEFJLWRyaXZlbiBhcmJpdHJhZ2UgdHJh
-ZGluZyBib3QgZm9yIHRoZSBTb2xhbmEgYmxvY2tjaGFpbi4gVGhlIGJvdCB3
-aWxsIHV0aWxpemUgQUkgbW9kZWxzIHZpYSBPcGVuUm91dGVyIGZvciBkZWNp
-c2lvbi1tYWtpbmcgYmFzZWQgb24gcmVhbC10aW1lIGRhdGEgZmV0Y2hlZCB2
-aWEgV2ViU29ja2V0IGFuZCBKUVAuCgoqKk5vdGU6KiogVGhpcyBpcyBhIGJh
-c2ljIGZyYW1ld29yayBhbmQgcmVxdWlyZXMgc2lnbmlmaWNhbnQgZnVydGhl
-ciBkZXZlbG9wbWVudCBmb3IgYWN0dWFsIHRyYWRpbmcuCgojIyBGZWF0dXJl
-cyAoUGxhbm5lZCkKLSAgQ29ubmVjdCB0byBTb2xhbmEgV2ViU29ja2V0IGZv
-ciByZWFsLXRpbWUgZGF0YS4KLSAgSW50ZWdyYXRlIHdpdGggSnVwaXRlciBB
-UEkgZm9yIHByaWNlIHF1b3RlcyBhbmQgc3dhcCBleGVjdXRpb24uCi0gICBJ
-bXBsZW1lbnQgYXJiaXRyYWdlIGxvZ2ljIHRvIGlkZW50aWZ5IHByb2ZpdGFi
-bGUgdHJhZGVzLgotICAgSW50ZWdyYXRlIHdpdGggT3BlblJvdXRlciBmb3Ig
-QUkgbW9kZWwgYWNjZXNzIHRvIGFzc2VzcyB0cmFkZSBvcHBvcnR1bml0aWVz
-LgotICAgU2VjdXJlIHdhbGxldCBwcml2YXRlIGtleSBtYW5hZ2VtZW50IHZp
-YSBlbnZpcm9ubWVudCB2YXJpYWJsZXMuCi0gICBBc3luY2hyb25vdXMgdHJh
-bnNhY3Rpb24gc2lnbmluZyBhbmQgc2VuZGluZyB1c2luZyBTb2xhbmEgUHl0
-aG9uIGxpYnJhcmllcy4KLSAgIENvbmZpZ3VyYXRpb24gb3B0aW9ucyBmb3Ig
-dG9rZW5zLCBzbGlwcGFnZSwgcHJvZml0IHRocmVzaG9sZC4KLSAgIFByb3Zp
-ZGUgZGVwbG95bWVudCBndWlkYW5jZSBmb3Igc2VydmVyIHNldHVwIGFuZCBz
-ZWN1cml0eSBiZXN0IHByYWN0aWNlcy4KCiMjIFNldHVwCgozLiAgKipFbnZp
-cm9ubWVudCBWYXJpYWJsZXM6KioKICAgIENyZWF0ZSBhIGAuc3JjLy5lbnvg
-ZmlsZSBpbiB0aGUgcHJvamVjdCByb290IHdpdGggdGhlIGZvbGxvd2luZzoK
-ICAgIGBgYGVudgogICAgU09MQU5BX1JQQ19VUkw9InlvdXJfc29sYW5hX3Jw
-Y191cmwiCiAgICBTT0xBTkFfV1NfVVJMPSJ5b3VyX3NvbGFuYV93ZWJzb2Nr
-ZXRfdXJsIgogICAgT1BFTlJPVVRFUl9BUElfS0VZPSJ5b3VyX29wZW5yb3V0
-ZXJfYXBpX2tleSIKICAgIFdHUlNfUFJJVkFURS1LRVk9InlvdXJfd2dyc19w
-cml2YXRlX2tleSIgIyBFbmNvZGVkIFByaXZhdGUgS2V5CiAgICBgYGBgCiAg
-ICBSZXBsYWNlIHRoZSBwbGFjZWhvbGRlciB2YWx1ZXMgd2l0aCB5b3VyIGFj
-dHVhbCBSUEMsIFdlYlNvY2tldCBVUkxzLCBPcGVuUm91dGVyBBUEkgS2V5
-IGFuZCBFbmNvZGVkIFByaXZhdGUgS2V5LgoKIyMgUnVubmluZyB0aGUgQm90
-CgpgYGBiYXNoCnB5dGhvbiBtYWluLnB5CmBgYAoKVGhpcyB3aWxsIHN0YXJ0
-IHRoZSBib3QsIGNvbm5lY3QgdG8gdGhlIFdlYlNvY2tldCwgYW5kIHByaW50
-IG91dHB1dCB0byB0aGUgY29uc29sZS4gVGhlIFVJIGlzIGN1cnJlbnRseSBh
-IHBsYWNlaG9sZGVyLgoKIyMgUHJvamVjdCBTdHJ1Y3R1cmUKCi0gICBgbWFp
-bnB5YDogVGhlIG1haW4gc2NyaXB0IGNvbnRhaW5pbmcgdGhlIGJvdCdzIGNv
-cmUgbG9naWMuCi0gICBgcmVxdWlyZW1lbnRzLnR4dGA6IExpc3RzIFB5dGhv
-biBkZXBlbmRlbmNpZXMuCi0gICBgLmdpdGlnbm9yZWA6IFNwZWNpZmllcyBm
-aWxlcyB0byBiZSBpZ25vcmVkIGJ5IEdpdC4KLSAgIGAuZW52LmV4YW1wbGVg
-OiBBbiBleGFtcGxlIG9mIHRoZSBcCiAgICAgICAgICAgICAgICAgICAgICAg
-ICAgICAgICAgICAgICAgICAgICBgLmVudgBgIGZpbGUgd2l0aCBlbnZpcm9u
-bWVudCB2YXJpYWJsZXMuCi0gICBgUkVBRE1FLm1kYDogUHJvamVjdCBkZXNj
-cmlwdGlvbiBhbmQgc2V0dXAgaW5zdHJ1Y3Rpb25zLgoKIyMgRnVydGhlciBE
-ZXZlbG9wbWVudAoKICAgICBJbXBsZW1lbnQgcm9idXN0IGVycm9yIGhhbmRs
-aW5nIGFuZCByZWNvbm5lY3Rpb24gbG9naWMuCiAgICAgIERldmVsb3Agc29w
-aGlzdGljYXRlZCBBSSB0cmFkaW5nIHN0cmF0ZWdpZXMuCiAgICAgICJcCiAg
-ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
-ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCIgSW50ZWdy
+# sol-bot
+Solana AI Arbitrage Trading Bot
 
-YXRlIHdpdGggYSBTb2xhbmEgd2FsbGV0IGZvciBzZWN1cmUga2V5IG1hbmFn
-aW5nIGFuZCB0cmFuc2FjdGlvbiBzaWduaW5nLgogICAgICAgIlwKICAgICAg
-ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
-ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCIgQnVp
-bGQgYSBmdW5jdGlvbmFsIHVzZXIgaW50ZXJmYWNlLgogICAgICAgIlwKICAg
-ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
-ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCIgQWRk
-IGNvbXByZWhlbnNpdmUgdGVzdGluZy4KICAgICAgICJcCiAgICAgICAgICAg
-ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
-ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIiBF
-eHBsb3JlIHNwZWNpZmljIFNvbGFuYSBwcm9ncmFtIGludGVyYWN0aW9ucy4K
-CiMjIENvbnRyaWJ1dGluZwoKQ29udHJpYnV0aW9ucyBhcmUgd2VsY29tZSEg
-UGxlYXNlIGZvcmsgdGhlIHJlcG9zaXRvcnkgYW5kIHN1Ym1pdCBhIHB1bGwg
-cmVxdWVzdC4K
+This is a Solana trading bot that uses Jupiter Aggregator for swaps and OpenRouter API for AI-powered trading decisions.
+
+## Features
+- Fetches quotes from Jupiter API V6
+- Executes swaps using Jupiter API V6
+- Uses OpenRouter API for AI analysis
+- Securely manages wallet private key via environment variable (`WGRS_PRIVATE_KEY`)
+- Asynchronous operations for efficiency
+- Identifies arbitrage opportunities between two target tokens, potentially via USDC.
+
+## Prerequisites
+- Python 3.9+
+- Solana account with some SOL for fees and trading capital
+- API keys for:
+    - QuickNode (or other Solana RPC provider)
+    - Helius (for WebSockets, or alternative)
+    - OpenRouter API
+
+## Setup
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/f0x-sketch/sol-bot.git
+    cd sol-bot
+    ```
+
+2.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Set up environment variables:**
+    Create a `.env` file in the root directory by copying the example:
+    ```bash
+    cp .env.example .env
+    ```
+    Edit the `.env` file with your actual credentials and parameters:
+    ```
+    # Solana RPC Endpoints
+    QUICKNODE_HTTP_URL="YOUR_QUICKNODE_HTTP_ENDPOINT"
+    HELIUS_WSS_URL="YOUR_HELIUS_WSS_ENDPOINT" # Or your preferred WebSocket provider
+
+    # API Keys
+    OPENROUTER_API_KEY="sk-or-v1-..." # Your OpenRouter API Key
+
+    # Wallet (IMPORTANT: Secure this key. This is a placeholder format.)
+    # For development, you might use a burner wallet.
+    # NEVER commit your actual private key to the repository.
+    # The .gitignore file is configured to ignore .env files.
+    WGRS_PRIVATE_KEY="YOUR_WALLET_PRIVATE_KEY_BYTE_ARRAY_AS_STRING" # e.g., "[10,23,45,...,67]"
+
+    # Trading Parameters
+    TARGET_TOKEN_A_MINT="EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v" # Default: USDC
+    TARGET_TOKEN_B_MINT="So11111111111111111111111111111111111111112" # Default: SOL
+    MIN_USD_PROFIT_THRESHOLD="1.0" # Minimum estimated profit in USD to consider a trade
+    ```
+    **Security Note:** Ensure your `.env` file is listed in your `.gitignore` file (it is by default in this project, and `.env` itself is explicitly ignored) and never commit it to your repository, especially if it contains sensitive information like private keys.
+
+## How It Works
+The bot monitors market prices for `TARGET_TOKEN_A` and `TARGET_TOKEN_B` using the Jupiter API to identify potential arbitrage opportunities. It primarily evaluates the following scenarios to maximize one of the target tokens or achieve a USD profit:
+
+1.  **Triangular Arbitrage via USDC:**
+    *   `TARGET_TOKEN_A` → `USDC` → `TARGET_TOKEN_B`
+    *   `TARGET_TOKEN_B` → `USDC` → `TARGET_TOKEN_A`
+2.  **Direct Swaps (especially if one target token is USDC or for direct comparison):**
+    *   `TARGET_TOKEN_A` → `TARGET_TOKEN_B`
+    *   `TARGET_TOKEN_B` → `TARGET_TOKEN_A`
+
+The goal is to find a sequence of swaps that results in a greater amount of the desired token, with the profit estimated in USD and compared against `MIN_USD_PROFIT_THRESHOLD`.
+
+When a potential arbitrage opportunity is identified:
+1.  It fetches precise quotes from Jupiter for the chosen trading path.
+2.  It constructs a prompt for the OpenRouter API, detailing the potential trade (tokens, expected profit, etc.).
+3.  An AI model via OpenRouter assesses the trade's viability (e.g., considering if the profit is significant enough or if there are hidden risks not captured by simple price differences).
+4.  If the AI confirms the trade with a "YES" response, the bot will attempt to execute the swap(s) using the Jupiter Swap API.
+
+**Note on Execution:** The current implementation focuses on identifying opportunities and getting AI confirmation. The actual transaction submission logic (`send_and_confirm_transaction` in `main.py`) is a critical placeholder. It needs to be fully implemented, including robust error handling, transaction signing with the `WGRS_PRIVATE_KEY`, and confirmation, before use with real funds.
+
+## Running the Bot
+```bash
+python main.py
+```
+The bot will start logging its activities, including price checks, potential opportunities found, and AI decisions.
+
+## Disclaimer
+-   **Use at your own risk.** Trading cryptocurrencies, especially with automated bots, is highly risky.
+-   This bot is for educational and experimental purposes.
+-   **Never use funds you cannot afford to lose.**
+-   Ensure you understand the code and the risks involved before running this bot with real capital.
+-   The security of your private keys is your responsibility. Always use a separate, burner wallet for development and testing.
+
+## TODO / Future Enhancements
+-   [ ] **Full Transaction Execution:** Implement robust transaction signing and sending with error handling and retries.
+-   [ ] **Advanced AI Prompts:** Improve AI prompts with more market data (e.g., recent price volatility, order book depth if accessible).
+-   [ ] **Multi-Path Arbitrage:** Explore more complex arbitrage paths (e.g., A -> B -> C -> A).
+-   [ ] **Dynamic Slippage Control:** Adjust slippage based on market conditions or AI output.
+-   [ ] **Gas Fee Optimization:** Consider gas fees in profit calculation and execution strategy.
+-   [ ] **Expanded DEX Support:** While Jupiter aggregates, direct integration with specific DEXs might offer advantages in some scenarios.
+-   [ ] **Backtesting Framework:** Develop a system to test strategies against historical data.
+-   [ ] **Improved Logging and Monitoring:** Integrate more comprehensive logging and potentially a dashboard.
+-   [ ] **Risk Management:** Implement stricter risk controls (e.g., max trade size, daily loss limits).
