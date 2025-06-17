@@ -1,64 +1,63 @@
-# Solana AI Trading Bot
+IyBTb2xhbmEgQUkgQXJiaXRyYWdlIFRyYWRpbmcgQm90CgpUaGlzIHByb2pl
+Y3QgYWltcyB0byBkZXZlbG9wIGFuIEFJLWRyaXZlbiBhcmJpdHJhZ2UgdHJh
+ZGluZyBib3QgZm9yIHRoZSBTb2xhbmEgYmxvY2tjaGFpbi4gVGhlIGJvdCB3
+aWxsIHV0aWxpemUgQUkgbW9kZWxzIHZpYSBPcGVuUm91dGVyIGZvciBkZWNp
+c2lvbi1tYWtpbmcgYmFzZWQgb24gcmVhbC10aW1lIGRhdGEgZmV0Y2hlZCB2
+aWEgV2ViU29ja2V0IGFuZCBKUVAuCgoqKk5vdGU6KiogVGhpcyBpcyBhIGJh
+c2ljIGZyYW1ld29yayBhbmQgcmVxdWlyZXMgc2lnbmlmaWNhbnQgZnVydGhl
+ciBkZXZlbG9wbWVudCBmb3IgYWN0dWFsIHRyYWRpbmcuCgojIyBGZWF0dXJl
+cyAoUGxhbm5lZCkKLSAgQ29ubmVjdCB0byBTb2xhbmEgV2ViU29ja2V0IGZv
+ciByZWFsLXRpbWUgZGF0YS4KLSAgSW50ZWdyYXRlIHdpdGggSnVwaXRlciBB
+UEkgZm9yIHByaWNlIHF1b3RlcyBhbmQgc3dhcCBleGVjdXRpb24uCi0gICBJ
+bXBsZW1lbnQgYXJiaXRyYWdlIGxvZ2ljIHRvIGlkZW50aWZ5IHByb2ZpdGFi
+bGUgdHJhZGVzLgotICAgSW50ZWdyYXRlIHdpdGggT3BlblJvdXRlciBmb3Ig
+QUkgbW9kZWwgYWNjZXNzIHRvIGFzc2VzcyB0cmFkZSBvcHBvcnR1bml0aWVz
+LgotICAgU2VjdXJlIHdhbGxldCBwcml2YXRlIGtleSBtYW5hZ2VtZW50IHZp
+YSBlbnZpcm9ubWVudCB2YXJpYWJsZXMuCi0gICBBc3luY2hyb25vdXMgdHJh
+bnNhY3Rpb24gc2lnbmluZyBhbmQgc2VuZGluZyB1c2luZyBTb2xhbmEgUHl0
+aG9uIGxpYnJhcmllcy4KLSAgIENvbmZpZ3VyYXRpb24gb3B0aW9ucyBmb3Ig
+dG9rZW5zLCBzbGlwcGFnZSwgcHJvZml0IHRocmVzaG9sZC4KLSAgIFByb3Zp
+ZGUgZGVwbG95bWVudCBndWlkYW5jZSBmb3Igc2VydmVyIHNldHVwIGFuZCBz
+ZWN1cml0eSBiZXN0IHByYWN0aWNlcy4KCiMjIFNldHVwCgozLiAgKipFbnZp
+cm9ubWVudCBWYXJpYWJsZXM6KioKICAgIENyZWF0ZSBhIGAuc3JjLy5lbnvg
+ZmlsZSBpbiB0aGUgcHJvamVjdCByb290IHdpdGggdGhlIGZvbGxvd2luZzoK
+ICAgIGBgYGVudgogICAgU09MQU5BX1JQQ19VUkw9InlvdXJfc29sYW5hX3Jw
+Y191cmwiCiAgICBTT0xBTkFfV1NfVVJMPSJ5b3VyX3NvbGFuYV93ZWJzb2Nr
+ZXRfdXJsIgogICAgT1BFTlJPVVRFUl9BUElfS0VZPSJ5b3VyX29wZW5yb3V0
+ZXJfYXBpX2tleSIKICAgIFdHUlNfUFJJVkFURS1LRVk9InlvdXJfd2dyc19w
+cml2YXRlX2tleSIgIyBFbmNvZGVkIFByaXZhdGUgS2V5CiAgICBgYGBgCiAg
+ICBSZXBsYWNlIHRoZSBwbGFjZWhvbGRlciB2YWx1ZXMgd2l0aCB5b3VyIGFj
+dHVhbCBSUEMsIFdlYlNvY2tldCBVUkxzLCBPcGVuUm91dGVyBBUEkgS2V5
+IGFuZCBFbmNvZGVkIFByaXZhdGUgS2V5LgoKIyMgUnVubmluZyB0aGUgQm90
+CgpgYGBiYXNoCnB5dGhvbiBtYWluLnB5CmBgYAoKVGhpcyB3aWxsIHN0YXJ0
+IHRoZSBib3QsIGNvbm5lY3QgdG8gdGhlIFdlYlNvY2tldCwgYW5kIHByaW50
+IG91dHB1dCB0byB0aGUgY29uc29sZS4gVGhlIFVJIGlzIGN1cnJlbnRseSBh
+IHBsYWNlaG9sZGVyLgoKIyMgUHJvamVjdCBTdHJ1Y3R1cmUKCi0gICBgbWFp
+bnB5YDogVGhlIG1haW4gc2NyaXB0IGNvbnRhaW5pbmcgdGhlIGJvdCdzIGNv
+cmUgbG9naWMuCi0gICBgcmVxdWlyZW1lbnRzLnR4dGA6IExpc3RzIFB5dGhv
+biBkZXBlbmRlbmNpZXMuCi0gICBgLmdpdGlnbm9yZWA6IFNwZWNpZmllcyBm
+aWxlcyB0byBiZSBpZ25vcmVkIGJ5IEdpdC4KLSAgIGAuZW52LmV4YW1wbGVg
+OiBBbiBleGFtcGxlIG9mIHRoZSBcCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICBgLmVudgBgIGZpbGUgd2l0aCBlbnZpcm9u
+bWVudCB2YXJpYWJsZXMuCi0gICBgUkVBRE1FLm1kYDogUHJvamVjdCBkZXNj
+cmlwdGlvbiBhbmQgc2V0dXAgaW5zdHJ1Y3Rpb25zLgoKIyMgRnVydGhlciBE
+ZXZlbG9wbWVudAoKICAgICBJbXBsZW1lbnQgcm9idXN0IGVycm9yIGhhbmRs
+aW5nIGFuZCByZWNvbm5lY3Rpb24gbG9naWMuCiAgICAgIERldmVsb3Agc29w
+aGlzdGljYXRlZCBBSSB0cmFkaW5nIHN0cmF0ZWdpZXMuCiAgICAgICJcCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCIgSW50ZWdy
 
-This project aims to develop a simple AI-driven trading bot for the Solana blockchain. The bot will utilize AI models via OpenRouter for decision-making based on real-time blockchain data fetched via WebSocket.
-
-**Note:** This is a basic framework and requires significant further development for actual trading.
-
-## Features (Planned)
-
-- Connect to Solana WebSocket for real-time data.
-- Integrate with OpenRouter for AI model access.
-- Basic AI-driven trading decision logic.
-- Placeholder for trade execution on Solana.
-- Simple UI concept.
-
-## Setup
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/f0x-sketch/sol-bot.git
-    cd sol-bot
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Environment Variables:**
-    Create a `.env` file in the project root with the following:
-    ```env
-    SOLANA_RPC_URL="YOUR_SOLANA_RPC_URL"
-    SOLANA_WS_URL="YOUR_SOLANA_WEBSOCKET_URL"
-    OPENROUTER_API_KEY="YOUR_OPENROUTER_API_KEY"
-    # PROGRAM_ID="YOUR_PROGRAM_ID" # Optional: if monitoring a specific program
-    ```
-    Replace the placeholder values with your actual RPC, WebSocket URLs, and OpenRouter API Key.
-
-## Running the Bot
-
-```bash
-python main.py
-```
-
-This will start the bot, connect to the WebSocket, and print output to the console. The UI is currently a placeholder.
-
-## Project Structure
-
--   `main.py`: The main script containing the bot's core logic.
--   `requirements.txt`: Lists Python dependencies.
--   `.gitignore`: Specifies files to be ignored by Git.
--   `README.md`: Project description and setup instructions.
-
-## Further Development
-
--   Implement robust error handling and reconnection logic.
--   Develop sophisticated AI trading strategies.
--   Integrate with a Solana wallet for secure key management and transaction signing.
--   Build a functional user interface.
--   Add comprehensive testing.
--   Explore specific Solana program interactions.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
+YXRlIHdpdGggYSBTb2xhbmEgd2FsbGV0IGZvciBzZWN1cmUga2V5IG1hbmFn
+aW5nIGFuZCB0cmFuc2FjdGlvbiBzaWduaW5nLgogICAgICAgIlwKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCIgQnVp
+bGQgYSBmdW5jdGlvbmFsIHVzZXIgaW50ZXJmYWNlLgogICAgICAgIlwKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCIgQWRk
+IGNvbXByZWhlbnNpdmUgdGVzdGluZy4KICAgICAgICJcCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIiBF
+eHBsb3JlIHNwZWNpZmljIFNvbGFuYSBwcm9ncmFtIGludGVyYWN0aW9ucy4K
+CiMjIENvbnRyaWJ1dGluZwoKQ29udHJpYnV0aW9ucyBhcmUgd2VsY29tZSEg
+UGxlYXNlIGZvcmsgdGhlIHJlcG9zaXRvcnkgYW5kIHN1Ym1pdCBhIHB1bGwg
+cmVxdWVzdC4K
