@@ -1,8 +1,8 @@
-# Required libraries for the Solana AI Trading Bot
-
-solana-py
-solders
+solana>=0.30.0,<0.33.0 # Check solana-py releases for latest compatible version; 0.32.0 used for VersionedTransaction
+solders>=0.18.0,<0.20.0 # Check solders releases; 0.19.0 works with solana 0.32.0
 python-dotenv
-openai # Using openai as a placeholder, replace with the actual OpenRouter library if available or use requests
+openai
 websockets
-asyncio
+httpx[http2] # For making async HTTP requests to Jupiter API, http2 is optional but good
+# asyncio is part of standard library
+# decimal is part of standard library
