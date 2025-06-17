@@ -1,0 +1,8 @@
+# Required libraries for the Solana AI Trading Bot
+
+solana-py
+solders
+python-dotenv
+openai # Using openai as a placeholder, replace with the actual OpenRouter library if available or use requests
+websockets
+asyncio
