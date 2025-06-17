@@ -79,7 +79,7 @@ The goal is to find a sequence of swaps that results in a greater amount of the 
 When a potential arbitrage opportunity is identified:
 1.  It fetches precise quotes from Jupiter for the chosen trading path.
 2.  It constructs a prompt for the OpenRouter API, detailing the potential trade (tokens, expected profit, etc.).
-3.  An AI model via OpenRouter assesses the trade's viability (e.g., considering if the profit is significant enough or if there are hidden risks not captured by simple price differences).
+3.  An AI model via OpenRouter assesses the trade\'s viability (e.g., considering if the profit is significant enough or if there are hidden risks not captured by simple price differences).
 4.  If the AI confirms the trade with a "YES" response, the bot will attempt to execute the swap(s) using the Jupiter Swap API.
 
 **Note on Execution:** The current implementation focuses on identifying opportunities and getting AI confirmation. The actual transaction submission logic (`send_and_confirm_transaction` in `main.py`) is a critical placeholder. It needs to be fully implemented, including robust error handling, transaction signing with the `WGRS_PRIVATE_KEY`, and confirmation, before use with real funds.
